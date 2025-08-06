@@ -1,4 +1,4 @@
-# 2021 암호분석
+# 2021 Cryptanalysis Contest #2 Solution
 
 [Practical Attacks on the Round-reduced PRINCE.pdf](https://eprint.iacr.org/2015/245.pdf)
 
