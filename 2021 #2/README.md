@@ -2,9 +2,7 @@
 
 [Practical Attacks on the Round-reduced PRINCE.pdf](https://eprint.iacr.org/2015/245.pdf)
 
-먼저 ‘출제 의도상 모범 답안으로 추정되는 답안’은 여기서 확인할 수 있다.
-
-[암호 뉴비들의 암호 깨는 대회 출전기 (hashmm.com)](https://hashmm.com/post/crypto-contest-2021-writeup/index.html)
+먼저 ‘출제 의도상 모범 답안으로 추정되는 답안’은 [이 링크에서](https://hashmm.com/post/crypto-contest-2021-writeup/index.html) 확인할 수 있다.
 
 논문에서 사용된 2.5-round distinguisher는 4개의 8-quasiactive nibble을 가진 평문 set에서 출발했을 때 모든 nibble이 balanced된 상태에 도달하게 됨을 이용한다.
 
