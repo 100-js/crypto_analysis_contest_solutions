@@ -1,8 +1,8 @@
-# 2021 Cryptanalysis Contest #2 Solution
+# 2021 Crypto Analysis Contest #2 Solution
 
 [Practical Attacks on the Round-reduced PRINCE.pdf](https://eprint.iacr.org/2015/245.pdf)
 
-먼저 ‘출제 의도상 모범 답안으로 추정되는 답안’은 [이 링크에서](https://hashmm.com/post/crypto-contest-2021-writeup/index.html) 확인할 수 있다.
+먼저 [‘출제 의도상 모범 답안으로 추정되는 답안’](https://hashmm.com/post/crypto-contest-2021-writeup/index.html)은 링크에서 확인할 수 있다.
 
 논문에서 사용된 2.5-round distinguisher는 4개의 8-quasiactive nibble을 가진 평문 set에서 출발했을 때 모든 nibble이 balanced된 상태에 도달하게 됨을 이용한다.
 
