@@ -1,1 +1,1 @@
-# cryptanalysis_contest_solutions
+# crypto_analysis_contest_solutions
