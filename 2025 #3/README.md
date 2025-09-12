@@ -1,4 +1,4 @@
-# 2025 Cryptanalysis Contest #3 Solution
+# 2025 Crypto Analysis Contest #3 Solution
 
 이하의 notation은 wbcaes128.c 구현 과정에서 참고된 [Muir의 whitebox AES tutorial](https://eprint.iacr.org/2013/104.pdf)을 따른다.
 
