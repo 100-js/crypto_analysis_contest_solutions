@@ -13,16 +13,15 @@
 
 <img width="600" height="240" alt="rowbyrow" src="https://github.com/user-attachments/assets/4d93166c-aad1-49d5-8f5c-eb747a44331e" />
 
-이때 $S$와 $S^{-1}$는 자명하게 nibble-independent하며, $M'$은 행렬로 정의된 형태를 보면 row-independent함을 알 수 있다.
+이때 $S$와 $S^{-1}$는 자명하게 nibble-independent하며, $M'$은 block diagonal matrix로 정의된 형태를 보면 row-independent함을 알 수 있다.
 
-
+<img width="600" height="270" alt="m" src="https://github.com/user-attachments/assets/ee2000e3-ca1b-4956-8afc-f381379f967f" />
 
 4bit (nibble)와 16bit (row)의 최소공배수는 16bit이므로 middle round인 $S \circ M' \circ S^{-1}$ 또한 row-independent하다.
 
-따라서 16bit씩 나눠서 brute force를 돌려도 아무 문제가 없다!
+**따라서 16bit씩 나눠서 brute force를 돌려도 아무 문제가 없다!**
 
 즉 모범 답안에서의 key space 크기인 $2^{32}$보다도 더욱 작은 $4 \times 2^{16}$번의 탐색만으로 $k_1$을 복구하는 것이 가능하다.
+(만약 key가 알파벳 소문자로만 구성되어 있다는 힌트까지 사용했다면 필요한 탐색 횟수를 $4 \times 2^{8}$번 이내로 줄일 수 있었을 것이다.)
 
-만약 key가 알파벳 소문자로만 구성되어 있다는 힌트까지 사용했다면 필요한 탐색 횟수를 $4 \times 2^{8}$번 이내로 줄일 수 있었을 것이다.
-
-최종적으로 복구한 $k_0$ 값은 
+최종적으로 복구한 $k_1$ 값은 **(16진수)** 로, ASCII로 변환하면 링크된 답안의 결과값과 일치하는 문자열이 나온다.
