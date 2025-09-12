@@ -1,4 +1,4 @@
-# 2025 Cryptanalysis Contest #5 Solution
+# 2025 Crypto Analysis Contest #5 Solution
 
 이하에서 Alice의 개인키는 $d_A$, Bob의 개인키는 $d_B$로 표기하였다.
 
